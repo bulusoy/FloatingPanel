@@ -205,7 +205,7 @@ class FloatingPanelLayoutAdapter {
                                              constant: -tipInset),
         ]
         offConstraints = [
-            surfaceView.topAnchor.constraint(equalTo: parent.layoutGuide.bottomAnchor, constant: 0.0),
+            surfaceView.topAnchor.constraint(equalTo: parent.view.bottomAnchor, constant: 0.0),
         ]
     }
 
